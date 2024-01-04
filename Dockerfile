@@ -4,6 +4,6 @@ WORKDIR /app
 
 Copy . /app/
 
-RUN javac HelloWorld.java
+RUN javac Main.java
 
 ENTRYPOINT ["java","Main" ]
